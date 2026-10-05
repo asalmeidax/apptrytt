@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#111111"
+    android:padding="18dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Brazuca Lite TV"
+            android:textColor="#FFFFFF"
+            android:textSize="26sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btnRefresh"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Atualizar"
+            android:focusable="true" />
+
+        <Button
+            android:id="@+id/btnConfig"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Fonte"
+            android:focusable="true" />
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/search"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Pesquisar... (OK abre o teclado)"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#AAAAAA"
+        android:singleLine="true"
+        android:focusable="true" />
+
+    <TextView
+        android:id="@+id/status"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#AAAAAA"
+        android:textSize="12sp"
+        android:paddingTop="4dp"
+        android:paddingBottom="8dp" />
+
+    <GridView
+        android:id="@+id/grid"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:numColumns="auto_fit"
+        android:columnWidth="145dp"
+        android:horizontalSpacing="14dp"
+        android:verticalSpacing="14dp"
+        android:stretchMode="columnWidth"
+        android:listSelector="@drawable/tv_grid_selector"
+        android:drawSelectorOnTop="true"
+        android:focusable="true"
+        android:focusableInTouchMode="true" />
+</LinearLayout>

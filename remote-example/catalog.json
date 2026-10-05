@@ -1,0 +1,20 @@
+{
+  "items": [
+    {
+      "id": "demo-bbb",
+      "title": "Big Buck Bunny",
+      "year": "2008",
+      "category": "Demo",
+      "poster": "https://storage.googleapis.com/gtv-videos-bucket/sample/images/BigBuckBunny.jpg",
+      "streamUrl": "https://storage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
+    },
+    {
+      "id": "demo-ed",
+      "title": "Elephants Dream",
+      "year": "2006",
+      "category": "Demo",
+      "poster": "https://storage.googleapis.com/gtv-videos-bucket/sample/images/ElephantsDream.jpg",
+      "streamUrl": "https://storage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4"
+    }
+  ]
+}
